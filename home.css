@@ -10,7 +10,7 @@ header {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .logo img {
@@ -28,4 +28,45 @@ nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+}
+
+.cta-buttons {
+    text-align: center;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cta-buttons a:hover {
+    background-color: #45a049;
+}
+
+.learn {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.learn-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.learn h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.learn p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
